@@ -4,7 +4,7 @@ using Mono.Cecil;
 
 namespace JustAssembly.Core.DiffItems.Properties
 {
-    class GetAccessorDiffItem : BaseDiffItem<MethodDefinition>
+    public class GetAccessorDiffItem : BaseDiffItem<MethodDefinition>
     {
         public GetAccessorDiffItem(PropertyDefinition oldProperty, PropertyDefinition newProperty, IEnumerable<IDiffItem> declarationDiffs)
             : base(oldProperty.GetMethod, newProperty.GetMethod, declarationDiffs, null)

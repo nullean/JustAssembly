@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace JustAssembly.Core.DiffItems.Modules
 {
-    class ModuleDiffItem : BaseDiffItem<ModuleDefinition>
+    public class ModuleDiffItem : BaseDiffItem<ModuleDefinition>
     {
         public ModuleDiffItem(ModuleDefinition oldModule, ModuleDefinition newModule, IEnumerable<IDiffItem> declarationDiffs, IEnumerable<IMetadataDiffItem<TypeDefinition>> diffChildren)
             : base(oldModule, newModule, declarationDiffs, diffChildren)

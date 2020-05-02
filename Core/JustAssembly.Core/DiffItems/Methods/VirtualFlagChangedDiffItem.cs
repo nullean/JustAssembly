@@ -2,7 +2,7 @@
 
 namespace JustAssembly.Core.DiffItems.Methods
 {
-    class VirtualFlagChangedDiffItem : BaseDiffItem
+    public class VirtualFlagChangedDiffItem : BaseDiffItem
     {
         private readonly bool isNewMethodVirtual;
 

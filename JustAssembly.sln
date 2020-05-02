@@ -91,7 +91,6 @@ Global
 		{6C55B776-26D4-4DB3-A6AB-87E783B2F3D1}.Release|Any CPU.ActiveCfg = Release|Net40
 		{6C55B776-26D4-4DB3-A6AB-87E783B2F3D1}.Release|Any CPU.Build.0 = Release|Net40
 		{6C55B776-26D4-4DB3-A6AB-87E783B2F3D1}.Telerik Release Build|Any CPU.ActiveCfg = Release|Net40
-		{6C55B776-26D4-4DB3-A6AB-87E783B2F3D1}.Telerik Release Build|Any CPU.Build.0 = Release|Net40
 		{FE0AC2D6-6A79-43A0-95D7-0522D25E8199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FE0AC2D6-6A79-43A0-95D7-0522D25E8199}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE0AC2D6-6A79-43A0-95D7-0522D25E8199}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -103,7 +102,6 @@ Global
 		{4498E5B1-75C7-41CD-85D5-05BB6764F37F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4498E5B1-75C7-41CD-85D5-05BB6764F37F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4498E5B1-75C7-41CD-85D5-05BB6764F37F}.Telerik Release Build|Any CPU.ActiveCfg = Telerik Release Build|Any CPU
-		{4498E5B1-75C7-41CD-85D5-05BB6764F37F}.Telerik Release Build|Any CPU.Build.0 = Telerik Release Build|Any CPU
 		{B97B9235-C5A9-4F00-AA22-D7E88FBBB4F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B97B9235-C5A9-4F00-AA22-D7E88FBBB4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B97B9235-C5A9-4F00-AA22-D7E88FBBB4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -151,7 +149,6 @@ Global
 		{18241A42-ADB4-459F-9000-8A7E69890CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18241A42-ADB4-459F-9000-8A7E69890CB4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{18241A42-ADB4-459F-9000-8A7E69890CB4}.Telerik Release Build|Any CPU.ActiveCfg = Telerik Release Build|Any CPU
-		{18241A42-ADB4-459F-9000-8A7E69890CB4}.Telerik Release Build|Any CPU.Build.0 = Telerik Release Build|Any CPU
 		{C6D6187D-CB83-40A1-A3F6-20FB9231D67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C6D6187D-CB83-40A1-A3F6-20FB9231D67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6D6187D-CB83-40A1-A3F6-20FB9231D67B}.Release|Any CPU.ActiveCfg = Release|Any CPU

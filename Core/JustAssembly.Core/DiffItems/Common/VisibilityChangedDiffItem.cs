@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace JustAssembly.Core.DiffItems.Common
 {
-    class VisibilityChangedDiffItem : BaseDiffItem
+    public class VisibilityChangedDiffItem : BaseDiffItem
     {
         private readonly bool reduced;
 

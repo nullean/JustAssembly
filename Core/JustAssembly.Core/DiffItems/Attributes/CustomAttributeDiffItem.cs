@@ -4,7 +4,7 @@ using JustAssembly.Core.Extensions;
 
 namespace JustAssembly.Core.DiffItems.Attributes
 {
-    class CustomAttributeDiffItem : BaseDiffItem
+    public class CustomAttributeDiffItem : BaseDiffItem
     {
         private readonly CustomAttribute attribute;
 

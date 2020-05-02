@@ -25,7 +25,7 @@ namespace JustAssembly.Core
             return GetAPIDifferences(oldAssembly, newAssembly);
         }
 
-        internal static IMetadataDiffItem<AssemblyDefinition> GetAPIDifferences(AssemblyDefinition oldAssembly, AssemblyDefinition newAssembly)
+        public static IMetadataDiffItem<AssemblyDefinition> GetAPIDifferences(AssemblyDefinition oldAssembly, AssemblyDefinition newAssembly)
         {
             return new AssemblyComparer(oldAssembly, newAssembly).Compare();
         }

@@ -4,7 +4,7 @@ using JustAssembly.Core.Extensions;
 
 namespace JustAssembly.Core.DiffItems.Common
 {
-    class MemberTypeDiffItem : BaseDiffItem
+    public class MemberTypeDiffItem : BaseDiffItem
     {
         private readonly IMemberDefinition oldMember;
         private readonly IMemberDefinition newMember;

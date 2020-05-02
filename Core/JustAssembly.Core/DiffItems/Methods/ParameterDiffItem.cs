@@ -7,7 +7,7 @@ using Mono.Cecil;
 
 namespace JustAssembly.Core.DiffItems.Methods
 {
-    class ParameterDiffItem : BaseDiffItem
+    public class ParameterDiffItem : BaseDiffItem
     {
         private readonly ParameterDefinition oldParameter;
         private readonly ParameterDefinition newParameter;

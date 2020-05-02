@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace JustAssembly.Core.DiffItems.Common
 {
-    class StaticFlagChangedDiffItem : BaseDiffItem
+    public class StaticFlagChangedDiffItem : BaseDiffItem
     {
         private readonly bool isNewMemberStatic;
 

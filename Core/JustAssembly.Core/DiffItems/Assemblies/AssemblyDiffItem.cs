@@ -5,7 +5,7 @@ using Mono.Cecil;
 
 namespace JustAssembly.Core.DiffItems.Assemblies
 {
-    class AssemblyDiffItem : BaseDiffItem<AssemblyDefinition>
+    public class AssemblyDiffItem : BaseDiffItem<AssemblyDefinition>
     {
         public AssemblyDiffItem(AssemblyDefinition oldAssembly, AssemblyDefinition newAssembly,
             IEnumerable<IDiffItem> declarationDiffs, IEnumerable<IMetadataDiffItem<ModuleDefinition>> childrenDiffs)

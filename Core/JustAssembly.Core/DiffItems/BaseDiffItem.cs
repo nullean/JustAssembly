@@ -8,7 +8,7 @@ using Mono.Cecil;
 
 namespace JustAssembly.Core.DiffItems
 {
-    abstract class BaseDiffItem : IDiffItem
+    public abstract class BaseDiffItem : IDiffItem
     {
         private readonly DiffType diffType;
 
@@ -51,7 +51,7 @@ namespace JustAssembly.Core.DiffItems
         public abstract bool IsBreakingChange { get; }
     }
 
-    abstract class BaseDiffItem<T> : BaseDiffItem, IMetadataDiffItem<T> where T : class, IMetadataTokenProvider
+    public abstract class BaseDiffItem<T> : BaseDiffItem, IMetadataDiffItem<T> where T : class, IMetadataTokenProvider
     {
         private readonly T oldElement;
         private readonly T newElement;

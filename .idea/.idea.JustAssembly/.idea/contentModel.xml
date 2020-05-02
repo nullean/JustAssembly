@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_JustAssembly.1860749054.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".git/info/exclude" t="IncludeRecursive" />
+      <e p=".git/modules/JustDecompileEngine/info/exclude" t="IncludeRecursive" />
+      <e p="COMInterface/TelerikJustDecompileCOM.idl" t="Include" />
+      <e p="CommonAssemblyInfo.cs" t="Include" />
+      <e p="CompanyAssemblyInfo.cs" t="Include" />
+      <e p="Core" t="Include">
+        <e p="JustAssembly.Core" t="IncludeRecursive">
+          <e p="APIDiffHelper.cs" t="Include" />
+          <e p="Comparers" t="Include">
+            <e p="Accessors" t="Include">
+              <e p="AddAccessorComparer.cs" t="Include" />
+              <e p="BaseAccessorComparer.cs" t="Include" />
+              <e p="GetAccessorComparer.cs" t="Include" />
+              <e p="RemoveAccessorComparer.cs" t="Include" />
+              <e p="SetAccessorComparer.cs" t="Include" />
+            </e>
+            <e p="AssemblyComparer.cs" t="Include" />
+            <e p="BaseDiffComparer.cs" t="Include" />
+            <e p="CustomAttributeComparer.cs" t="Include" />
+            <e p="EventComparer.cs" t="Include" />
+            <e p="FieldComparer.cs" t="Include" />
+            <e p="MethodComparer.cs" t="Include" />
+            <e p="ModuleComparer.cs" t="Include" />
+            <e p="PropertyComparer.cs" t="Include" />
+            <e p="ReferenceComparer.cs" t="Include" />
+            <e p="TypeComparer.cs" t="Include" />
+            <e p="VisibilityComparer.cs" t="Include" />
+          </e>
+          <e p="DiffItems" t="Include">
+            <e p="Assemblies" t="Include">
+              <e p="AssemblyDiffItem.cs" t="Include" />
+            </e>
+            <e p="Attributes" t="Include">
+              <e p="CustomAttributeDiffItem.cs" t="Include" />
+            </e>
+            <e p="BaseDiffItem.cs" t="Include" />
+            <e p="BaseMemberDiffItem.cs" t="Include" />
+            <e p="Common" t="Include">
+              <e p="MemberTypeDiffItem.cs" t="Include" />
+              <e p="StaticFlagChangedDiffItem.cs" t="Include" />
+              <e p="VisibilityChangedDiffItem.cs" t="Include" />
+            </e>
+            <e p="Events" t="Include">
+              <e p="AddAccessorDiffItem.cs" t="Include" />
+              <e p="EventDiffItem.cs" t="Include" />
+              <e p="RemoveAccessorDiffItem.cs" t="Include" />
+            </e>
+            <e p="Fields" t="Include">
+              <e p="FieldDiffItem.cs" t="Include" />
+            </e>
+            <e p="Methods" t="Include">
+              <e p="MethodDiffItem.cs" t="Include" />
+              <e p="ParameterDiffItem.cs" t="Include" />
+              <e p="VirtualFlagChangedDiffItem.cs" t="Include" />
+            </e>
+            <e p="Modules" t="Include">
+              <e p="ModuleDiffItem.cs" t="Include" />
+            </e>
+            <e p="Properties" t="Include">
+              <e p="GetAccessorDiffItem.cs" t="Include" />
+              <e p="PropertyDiffItem.cs" t="Include" />
+              <e p="SetAccessorDiffItem.cs" t="Include" />
+            </e>
+            <e p="References" t="Include">
+              <e p="AssemblyReferenceDiffItem.cs" t="Include" />
+            </e>
+            <e p="Types" t="Include">
+              <e p="TypeDiffItem.cs" t="Include" />
+            </e>
+          </e>
+          <e p="DiffType.cs" t="Include" />
+          <e p="Extensions" t="Include">
+            <e p="EnumerableExtensions.cs" t="Include" />
+            <e p="MemberDefinitionExtensions.cs" t="Include" />
+            <e p="MethodReferenceExtensions.cs" t="Include" />
+            <e p="VisibilityDefinitionExtensions.cs" t="Include" />
+          </e>
+          <e p="IDiffItem.cs" t="Include" />
+          <e p="IMetadataDiffItem.cs" t="Include" />
+          <e p="JustAssembly.Core.csproj" t="IncludeRecursive" />
+          <e p="MetadataType.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+        <e p="JustAssembly.DiffAlgorithm" t="IncludeRecursive">
+          <e p="Algorithm" t="Include">
+            <e p="DiffFileExtensions.cs" t="Include" />
+            <e p="DiffInfo.cs" t="Include" />
+            <e p="DiffItem.cs" t="Include" />
+            <e p="DiffText.cs" t="Include" />
+            <e p="IDiffAlgorithm.cs" t="Include" />
+            <e p="MyersDiff.cs" t="Include" />
+            <e p="MyersDiffItemExtensions.cs" t="Include" />
+          </e>
+          <e p="DiffHelper.cs" t="Include" />
+          <e p="JustAssembly.DiffAlgorithm.csproj" t="IncludeRecursive" />
+          <e p="Models" t="Include">
+            <e p="DiffBlock.cs" t="Include" />
+            <e p="DiffBlockType.cs" t="Include" />
+            <e p="DiffFile.cs" t="Include" />
+            <e p="DiffResult.cs" t="Include" />
+          </e>
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+      </e>
+      <e p="JustAssembly.sln" t="IncludeFlat" />
+      <e p="JustDecompileEngine" t="Include">
+        <e p="Cecil" t="Include" />
+        <e p="Cecil.Decompiler" t="IncludeRecursive">
+          <e p="AssemblyLoader.cs" t="Include" />
+          <e p="Ast" t="Include">
+            <e p="BaseCodeNode.cs" t="Include" />
+            <e p="BaseCodeTransformer.cs" t="Include" />
+            <e p="BaseCodeVisitor.cs" t="Include" />
+            <e p="BinaryOperator.cs" t="Include" />
+            <e p="CodeNodeType.cs" t="Include" />
+            <e p="ExpressionExtensions.cs" t="Include" />
+            <e p="Expressions" t="Include">
+              <e p="AnonymousObjectCreationExpression.cs" t="Include" />
+              <e p="AnonymousPropertyInitializerExpression.cs" t="Include" />
+              <e p="ArgumentReferenceExpression.cs" t="Include" />
+              <e p="ArrayAssignmentFieldReferenceExpression.cs" t="Include" />
+              <e p="ArrayCreationExpression.cs" t="Include" />
+              <e p="ArrayIndexerExpression.cs" t="Include" />
+              <e p="ArrayLengthExpression.cs" t="Include" />
+              <e p="ArrayVariableDeclarationExpression.cs" t="Include" />
+              <e p="ArrayVariableReferenceExpression.cs" t="Include" />
+              <e p="AutoPropertyConstructorInitializerExpression.cs" t="Include" />
+              <e p="AwaitExpression.cs" t="Include" />
+              <e p="BaseCtorExpression.cs" t="Include" />
+              <e p="BaseReferenceExpression.cs" t="Include" />
+              <e p="BinaryExpression.cs" t="Include" />
+              <e p="BlockExpression.cs" t="Include" />
+              <e p="BoxExpression.cs" t="Include" />
+              <e p="CanCastExpression.cs" t="Include" />
+              <e p="CastExpressionBase.cs" t="Include" />
+              <e p="CheckedExpression.cs" t="Include" />
+              <e p="ConditionExpression.cs" t="Include" />
+              <e p="DefaultObjectExpression.cs" t="Include" />
+              <e p="DelegateCreationExpression.cs" t="Include" />
+              <e p="DelegateInvokeExpression.cs" t="Include" />
+              <e p="DynamicConstructorInvocationExpression.cs" t="Include" />
+              <e p="DynamicIndexerExpression.cs" t="Include" />
+              <e p="DynamicMemberReferenceExpression.cs" t="Include" />
+              <e p="EnumExpression.cs" t="Include" />
+              <e p="EventReferenceExpression.cs" t="Include" />
+              <e p="ExplicitCastExpression.cs" t="Include" />
+              <e p="Expression.cs" t="Include" />
+              <e p="ExpressionCollection.cs" t="Include" />
+              <e p="FieldInitializerExpression.cs" t="Include" />
+              <e p="FieldReferenceExpression.cs" t="Include" />
+              <e p="FromClause.cs" t="Include" />
+              <e p="GroupClause.cs" t="Include" />
+              <e p="ImplicitCastExpression.cs" t="Include" />
+              <e p="InitializerExpression.cs" t="Include" />
+              <e p="IntoClause.cs" t="Include" />
+              <e p="JoinClause.cs" t="Include" />
+              <e p="LambdaExpression.cs" t="Include" />
+              <e p="LambdaParameterExpression.cs" t="Include" />
+              <e p="LetClause.cs" t="Include" />
+              <e p="LinqQueryExpression.cs" t="Include" />
+              <e p="LiteralExpression.cs" t="Include" />
+              <e p="MakeRefExpression.cs" t="Include" />
+              <e p="MemberHandleExpression.cs" t="Include" />
+              <e p="MemberReferenceExpresion.cs" t="Include" />
+              <e p="MethodInvocationExpression.cs" t="Include" />
+              <e p="MethodReferenceExpression.cs" t="Include" />
+              <e p="ObjectCreationExpression.cs" t="Include" />
+              <e p="OrderByClause.cs" t="Include" />
+              <e p="ParenthesesExpression.cs" t="Include" />
+              <e p="PropertyInitializerExpression.cs" t="Include" />
+              <e p="PropertyReferenceExpression.cs" t="Include" />
+              <e p="QueryClause.cs" t="Include" />
+              <e p="RaiseEventExpression.cs" t="Include" />
+              <e p="RefReturnExpression.cs" t="Include" />
+              <e p="RefVariableDeclarationExpression.cs" t="Include" />
+              <e p="ReturnExpression.cs" t="Include" />
+              <e p="SafeCastExpression.cs" t="Include" />
+              <e p="SelectClause.cs" t="Include" />
+              <e p="ShortFormReturnExpression.cs" t="Include" />
+              <e p="SizeOfExpression.cs" t="Include" />
+              <e p="StackAllocExpression.cs" t="Include" />
+              <e p="ThisCtorExpression.cs" t="Include" />
+              <e p="ThisReferenceExpression.cs" t="Include" />
+              <e p="ThrowExpression.cs" t="Include" />
+              <e p="TypeOfExpression.cs" t="Include" />
+              <e p="TypeReferenceExpression.cs" t="Include" />
+              <e p="UnaryExpression.cs" t="Include" />
+              <e p="VariableDeclarationExpression.cs" t="Include" />
+              <e p="VariableReferenceExpression.cs" t="Include" />
+              <e p="WhereClause.cs" t="Include" />
+              <e p="YieldBreakExpression.cs" t="Include" />
+              <e p="YieldReturnExpression.cs" t="Include" />
+            </e>
+            <e p="ICodeNode.cs" t="Include" />
+            <e p="ICodeTransformer.cs" t="Include" />
+            <e p="ICodeVisitor.cs" t="Include" />
+            <e p="IIndexerExpression.cs" t="Include" />
+            <e p="IPdbCodeNode.cs" t="Include" />
+            <e p="OrderDirection.cs" t="Include" />
+            <e p="StatementExtensions.cs" t="Include" />
+            <e p="Statements" t="Include">
+              <e p="BasePdbStatement.cs" t="Include" />
+              <e p="BlockStatement.cs" t="Include" />
+              <e p="BreakStatement.cs" t="Include" />
+              <e p="BreakSwitchCaseStatement.cs" t="Include" />
+              <e p="CaseGotoStatement.cs" t="Include" />
+              <e p="CatchClause.cs" t="Include" />
+              <e p="CatchClauseCollection.cs" t="Include" />
+              <e p="CompilerOptimizedSwitchByStringStatement.cs" t="Include" />
+              <e p="ConditionCase.cs" t="Include" />
+              <e p="ConditionStatement.cs" t="Include" />
+              <e p="ContinueStatement.cs" t="Include" />
+              <e p="DefaultCase.cs" t="Include" />
+              <e p="DoWhileStatement.cs" t="Include" />
+              <e p="EmptyStatement.cs" t="Include" />
+              <e p="ExceptionStatement.cs" t="Include" />
+              <e p="ExpressionStatement.cs" t="Include" />
+              <e p="FinallyClause.cs" t="Include" />
+              <e p="FixedStatement.cs" t="Include" />
+              <e p="ForEachStatement.cs" t="Include" />
+              <e p="ForStatement.cs" t="Include" />
+              <e p="GotoStatement.cs" t="Include" />
+              <e p="IfElseIfStatement.cs" t="Include" />
+              <e p="IfStatement.cs" t="Include" />
+              <e p="LockStatement.cs" t="Include" />
+              <e p="Statement.cs" t="Include" />
+              <e p="StatementCollection.cs" t="Include" />
+              <e p="SwitchCase.cs" t="Include" />
+              <e p="SwitchCaseCollection.cs" t="Include" />
+              <e p="SwitchStatement.cs" t="Include" />
+              <e p="TryStatement.cs" t="Include" />
+              <e p="UnsafeBlockStatement.cs" t="Include" />
+              <e p="UsingStatement.cs" t="Include" />
+              <e p="WhileStatement.cs" t="Include" />
+            </e>
+            <e p="UnaryOperator.cs" t="Include" />
+          </e>
+          <e p="Cil" t="Include">
+            <e p="BaseInstructionVisitor.cs" t="Include" />
+            <e p="BlockRange.cs" t="Include" />
+            <e p="ControlFlowGraph.cs" t="Include" />
+            <e p="ControlFlowGraphAnalyser.cs" t="Include" />
+            <e p="ControlFlowGraphBuilder.cs" t="Include" />
+            <e p="Formatter.cs" t="Include" />
+            <e p="IInstructionVisitor.cs" t="Include" />
+            <e p="ISingleEntrySubGraph.cs" t="Include" />
+            <e p="InstructionBlock.cs" t="Include" />
+            <e p="InstructionDispatcher.cs" t="Include" />
+            <e p="SwitchData.cs" t="Include" />
+          </e>
+          <e p="Common" t="Include">
+            <e p="DynamicHelper.cs" t="Include" />
+            <e p="EnumValueToFieldCombinationMatcher.cs" t="Include" />
+            <e p="Extensions.cs" t="Include" />
+            <e p="LambdaExpressionsHelper.cs" t="Include" />
+            <e p="LinqExpressionType.cs" t="Include" />
+            <e p="NamespaceHierarchy" t="Include">
+              <e p="NamespaceHierarchyNode.cs" t="Include" />
+              <e p="NamespaceHierarchyTree.cs" t="Include" />
+              <e p="NamespaceHierarchyTreeBuilder.cs" t="Include" />
+            </e>
+            <e p="PairList.cs" t="Include" />
+            <e p="SwitchHelpers.cs" t="Include" />
+            <e p="UnionFinder.cs" t="Include" />
+            <e p="VariableFinder.cs" t="Include" />
+          </e>
+          <e p="Constants.cs" t="Include" />
+          <e p="DecompilationException.cs" t="Include" />
+          <e p="Decompiler" t="Include">
+            <e p="AssemblySpecificContext.cs" t="Include" />
+            <e p="AssignmentAnalysis" t="Include">
+              <e p="AssignmentAnalyzer.cs" t="Include" />
+              <e p="AssignmentFlowNode.cs" t="Include" />
+              <e p="AssignmentNodeState.cs" t="Include" />
+              <e p="AssignmentType.cs" t="Include" />
+              <e p="BaseAssignmentAnalysisStep.cs" t="Include" />
+              <e p="BaseUsageFinder.cs" t="Include" />
+              <e p="FieldUsageFinder.cs" t="Include" />
+              <e p="OutParameterUsageFinder.cs" t="Include" />
+              <e p="UsageFinderSearchResult.cs" t="Include" />
+              <e p="VariableUsageFinder.cs" t="Include" />
+            </e>
+            <e p="AsyncData.cs" t="Include" />
+            <e p="AttributesUtilities.cs" t="Include" />
+            <e p="AutoImplementedEventMatcher.cs" t="Include" />
+            <e p="BlockDecompilationPipeline.cs" t="Include" />
+            <e p="Caching" t="Include">
+              <e p="CachedDecompiledMember.cs" t="Include" />
+              <e p="DecompilationCache.cs" t="Include" />
+              <e p="DefaultDecompilationCacheService.cs" t="Include" />
+              <e p="EmptyDecompilationCacheService.cs" t="Include" />
+              <e p="IDecompilationCache.cs" t="Include" />
+              <e p="IDecompilationCacheService.cs" t="Include" />
+              <e p="ProjectGenerationDecompilationCacheService.cs" t="Include" />
+            </e>
+            <e p="CompilerOptimizedSwitchByStringData.cs" t="Include" />
+            <e p="DecompilationAnalysisResults.cs" t="Include" />
+            <e p="DecompilationContext.cs" t="Include" />
+            <e p="DecompilationPipeline.cs" t="Include" />
+            <e p="DecompiledMember.cs" t="Include" />
+            <e p="DecompiledType.cs" t="Include" />
+            <e p="DefineUseAnalysis" t="Include">
+              <e p="StackUsageAnalysis.cs" t="Include" />
+              <e p="StackUsageData.cs" t="Include" />
+              <e p="StackVariableDefineUseInfo.cs" t="Include" />
+            </e>
+            <e p="DependsOnAnalysisVisitor.cs" t="Include" />
+            <e p="ExplicitlyImplementedMembersCollection.cs" t="Include" />
+            <e p="ExpressionDecompilerData.cs" t="Include" />
+            <e p="ExpressionDecompilerStep.cs" t="Include" />
+            <e p="ExpressionPropagation" t="Include">
+              <e p="ExpressionPropagationStep.cs" t="Include" />
+            </e>
+            <e p="Extensions.cs" t="Include" />
+            <e p="FilterMethodToBeDecompiled.cs" t="Include" />
+            <e p="GeneratedMethod.cs" t="Include" />
+            <e p="GotoElimination" t="Include">
+              <e p="AfterGotoCleanupStep.cs" t="Include" />
+              <e p="ContinueAndBreakFinder.cs" t="Include" />
+              <e p="GotoCancelation.cs" t="Include" />
+              <e p="TotalGotoEliminationStep.cs" t="Include" />
+            </e>
+            <e p="IStateMachineData.cs" t="Include" />
+            <e p="InitializationAssignment.cs" t="Include" />
+            <e p="Inlining" t="Include">
+              <e p="BaseVariablesInliner.cs" t="Include" />
+              <e p="EmptyVariablesToNotInlineFinder.cs" t="Include" />
+              <e p="IVariableInliner.cs" t="Include" />
+              <e p="IVariablesToNotInlineFinder.cs" t="Include" />
+              <e p="MethodVariablesInliner.cs" t="Include" />
+              <e p="RestrictedVariableInliner.cs" t="Include" />
+              <e p="SideEffectsFinder.cs" t="Include" />
+              <e p="SimpleVariableInliner.cs" t="Include" />
+              <e p="StackVariablesInliner.cs" t="Include" />
+              <e p="VisualBasicVariablesToNotInlineFinder.cs" t="Include" />
+            </e>
+            <e p="LogicFlow" t="Include">
+              <e p="BlockLogicalConstruct.cs" t="Include" />
+              <e p="CFGBlockLogicalConstruct.cs" t="Include" />
+              <e p="CFGBlockSplitter.cs" t="Include" />
+              <e p="Common" t="Include">
+                <e p="TreeNode.cs" t="Include" />
+              </e>
+              <e p="Conditions" t="Include">
+                <e p="ConditionBuilder.cs" t="Include" />
+                <e p="ConditionLogicalConstruct.cs" t="Include" />
+                <e p="IfBuilder.cs" t="Include" />
+                <e p="IfLogicalConstruct.cs" t="Include" />
+              </e>
+              <e p="DFST" t="Include">
+                <e p="DFSTBuilder.cs" t="Include" />
+                <e p="DFSTEdge.cs" t="Include" />
+                <e p="DFSTNode.cs" t="Include" />
+                <e p="DFSTree.cs" t="Include" />
+              </e>
+              <e p="DTree" t="Include">
+                <e p="BaseDominatorTreeBuilder.cs" t="Include" />
+                <e p="DTNode.cs" t="Include" />
+                <e p="DominatorTree.cs" t="Include" />
+                <e p="FastDominatorTreeBuilder.cs" t="Include" />
+              </e>
+              <e p="DominatorTreeDependentStep.cs" t="Include" />
+              <e p="EmptyBlockLogicalConstruct.cs" t="Include" />
+              <e p="Exceptions" t="Include">
+                <e p="ExceptionHandlingBlockCatch.cs" t="Include" />
+                <e p="ExceptionHandlingBlockFilter.cs" t="Include" />
+                <e p="ExceptionHandlingLogicalConstruct.cs" t="Include" />
+                <e p="GuardedBlocksBuilder.cs" t="Include" />
+                <e p="GuardedBlocksFollowNodesFinder.cs" t="Include" />
+                <e p="IFilteringExceptionHandler.cs" t="Include" />
+                <e p="TryCatchFilterLogicalConstruct.cs" t="Include" />
+                <e p="TryFaultLogicalConstruct.cs" t="Include" />
+                <e p="TryFinallyLogicalConstruct.cs" t="Include" />
+              </e>
+              <e p="FollowNodeLoopCleanUpStep.cs" t="Include" />
+              <e p="FollowNodes" t="Include">
+                <e p="FollowNodeDeterminator.cs" t="Include" />
+                <e p="MaxWeightDisjointPathsFinder.cs" t="Include" />
+              </e>
+              <e p="IBreaksContainer.cs" t="Include" />
+              <e p="IInstructionBlockContainer.cs" t="Include" />
+              <e p="ILogicalConstruct.cs" t="Include" />
+              <e p="IntervalAnalyzer.cs" t="Include" />
+              <e p="IntervalConstruct.cs" t="Include" />
+              <e p="LogicalConstructBase.cs" t="Include" />
+              <e p="LogicalFlowBuilderContext.cs" t="Include" />
+              <e p="LogicalFlowBuilderStep.cs" t="Include" />
+              <e p="LogicalFlowUtilities.cs" t="Include" />
+              <e p="Loops" t="Include">
+                <e p="LoopBuilder.cs" t="Include" />
+                <e p="LoopLogicalConstruct.cs" t="Include" />
+                <e p="LoopType.cs" t="Include" />
+              </e>
+              <e p="PartialCFGBlockLogicalConstruct.cs" t="Include" />
+              <e p="Switches" t="Include">
+                <e p="CaseLogicalConstruct.cs" t="Include" />
+                <e p="SwitchBuilder.cs" t="Include" />
+                <e p="SwitchLogicalConstruct.cs" t="Include" />
+              </e>
+              <e p="YieldGuardedBlocksBuilder.cs" t="Include" />
+            </e>
+            <e p="MemberRenamingServices" t="Include">
+              <e p="DefaultMemberRenamingService.cs" t="Include" />
+              <e p="IMemberRenamingService.cs" t="Include" />
+              <e p="MemberRenamingData.cs" t="Include" />
+              <e p="WinRTRenamingService.cs" t="Include" />
+            </e>
+            <e p="MethodSpecificContext.cs" t="Include" />
+            <e p="ModuleSpecificContext.cs" t="Include" />
+            <e p="PropertyDecompiler.cs" t="Include" />
+            <e p="StateMachines" t="Include">
+              <e p="AsyncMoveNextMethodAnalyzer.cs" t="Include" />
+              <e p="AsyncStateControllerRemover.cs" t="Include" />
+              <e p="AsyncStateMachineVersion.cs" t="Include" />
+              <e p="DisposingStateControllerRemover.cs" t="Include" />
+              <e p="StateControllerRemover.cs" t="Include" />
+              <e p="StateMachineCFGCleaner.cs" t="Include" />
+              <e p="StateMachineDisposeAnalyzer.cs" t="Include" />
+              <e p="StateMachineDoFinallyCheckRemover.cs" t="Include" />
+              <e p="StateMachineFinallyCheckRemoverBase.cs" t="Include" />
+              <e p="StateMachineFinallyStateCheckRemover.cs" t="Include" />
+              <e p="StateMachineUtilities.cs" t="Include" />
+              <e p="YieldStateMachineControlFlowRebuilder.cs" t="Include" />
+            </e>
+            <e p="StatementDecompilerStep.cs" t="Include" />
+            <e p="TypeInference" t="Include">
+              <e p="ClassHierarchyBuilder.cs" t="Include" />
+              <e p="ClassHierarchyNode.cs" t="Include" />
+              <e p="ConnectedComponentsFinder.cs" t="Include" />
+              <e p="ExpressionTypeInferer.cs" t="Include" />
+              <e p="GreedyTypeInferer.cs" t="Include" />
+              <e p="IntegerTypeInferer.cs" t="Include" />
+              <e p="IntegerTypesHierarchyBuilder.cs" t="Include" />
+              <e p="TypeInferer.cs" t="Include" />
+              <e p="UsedAsTypeHelper.cs" t="Include" />
+            </e>
+            <e p="TypeNamesComparer.cs" t="Include" />
+            <e p="TypeSpecificContext.cs" t="Include" />
+            <e p="UsageBasedExpressionFixer.cs" t="Include" />
+            <e p="Utilities.cs" t="Include" />
+            <e p="WriterContext.cs" t="Include" />
+            <e p="WriterContextServices" t="Include">
+              <e p="BaseWriterContextService.cs" t="Include" />
+              <e p="FrameworkFoldersWriterContextService.cs" t="Include" />
+              <e p="IWriterContextService.cs" t="Include" />
+              <e p="SimpleWriterContextService.cs" t="Include" />
+              <e p="TypeCollisionWriterContextService.cs" t="Include" />
+              <e p="TypeDeclarationsWriterContextService.cs" t="Include" />
+              <e p="WinRTWriterContextService.cs" t="Include" />
+            </e>
+            <e p="YieldData.cs" t="Include" />
+            <e p="YieldExceptionHandlerInfo.cs" t="Include" />
+            <e p="YieldExceptionHandlerType.cs" t="Include" />
+            <e p="YieldFieldsInformation.cs" t="Include" />
+            <e p="YieldStateMachineVersion.cs" t="Include" />
+          </e>
+          <e p="External" t="Include">
+            <e p="Architecture.cs" t="Include" />
+            <e p="AssemblyIdentifier.cs" t="Include" />
+            <e p="DecompilationPreferences.cs" t="Include" />
+            <e p="ExceptionThrownNotifier.cs" t="Include" />
+            <e p="ExternallyVisibleDecompilationUtilities.cs" t="Include" />
+            <e p="FileGeneratedInfo.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IDecompilationPreferences.cs" t="Include" />
+              <e p="IDecompiler.cs" t="Include" />
+              <e p="IExceptionThrownNotifier.cs" t="Include" />
+              <e p="IFileGeneratedInfo.cs" t="Include" />
+              <e p="IFileGenerationNotifier.cs" t="Include" />
+              <e p="IFrameworkResolver.cs" t="Include" />
+              <e p="IFrameworkResolverWithUserInteraction.cs" t="Include" />
+              <e p="ITypeGeneratedInfo.cs" t="Include" />
+              <e p="IUniqueMemberIdentifier.cs" t="Include" />
+            </e>
+            <e p="MemberIdentifier.cs" t="Include" />
+            <e p="SupportedLanguages.cs" t="Include" />
+            <e p="TypeGeneratedInfo.cs" t="Include" />
+            <e p="UniqueMemberIdentifier.cs" t="Include" />
+          </e>
+          <e p="JustDecompiler.csproj" t="IncludeRecursive" />
+          <e p="Languages" t="Include">
+            <e p="AttributeWriter.cs" t="Include" />
+            <e p="BaseAssemblyAttributeWriter.cs" t="Include" />
+            <e p="BaseImperativeLanguageWriter.cs" t="Include" />
+            <e p="BaseLanguage.cs" t="Include" />
+            <e p="BaseLanguageWriter.cs" t="Include" />
+            <e p="CSharp" t="Include">
+              <e p="CSharp.cs" t="Include" />
+              <e p="CSharpAssemblyAttributeWriter.cs" t="Include" />
+              <e p="CSharpAttributeWriter.cs" t="Include" />
+              <e p="CSharpKeyWordWriter.cs" t="Include" />
+              <e p="CSharpV5.cs" t="Include" />
+              <e p="CSharpV6.cs" t="Include" />
+              <e p="CSharpV7.cs" t="Include" />
+              <e p="CSharpVersion.cs" t="Include" />
+              <e p="CSharpWriter.cs" t="Include" />
+              <e p="ICSharp.cs" t="Include" />
+            </e>
+            <e p="CodeMappingInfo.cs" t="Include" />
+            <e p="CodePosition.cs" t="Include" />
+            <e p="CodeSpan.cs" t="Include" />
+            <e p="IAssemblyAttributeWriter.cs" t="Include" />
+            <e p="IExceptionFormatter.cs" t="Include" />
+            <e p="IFormatter.cs" t="Include" />
+            <e p="IKeyWordWriter.cs" t="Include" />
+            <e p="IL" t="Include">
+              <e p="FlagsWriter.cs" t="Include" />
+              <e p="ILBlock.cs" t="Include" />
+              <e p="ILHelpers.cs" t="Include" />
+              <e p="IntermediateLanguage.cs" t="Include" />
+              <e p="IntermediateLanguageAssemblyAttributeWriter.cs" t="Include" />
+              <e p="IntermediateLanguageAttributeWriter.cs" t="Include" />
+              <e p="IntermediateLanguageWriter.cs" t="Include" />
+            </e>
+            <e p="ILanguage.cs" t="Include" />
+            <e p="ILanguageTestCaseWriter.cs" t="Include" />
+            <e p="ILanguageWriter.cs" t="Include" />
+            <e p="INamespaceLanguageWriter.cs" t="Include" />
+            <e p="IPositionMaintainingFormatter.cs" t="Include" />
+            <e p="IWriterSettings.cs" t="Include" />
+            <e p="InfinityConstants.cs" t="Include" />
+            <e p="LanguageFactory.cs" t="Include" />
+            <e p="MemberNamingUtils.cs" t="Include" />
+            <e p="NamespaceImperativeLanguageWriter.cs" t="Include" />
+            <e p="OffsetSpan.cs" t="Include" />
+            <e p="PlainTextFormatter.cs" t="Include" />
+            <e p="SimpleExceptionFormatter.cs" t="Include" />
+            <e p="TestCaseExceptionFormatter.cs" t="Include" />
+            <e p="TestCaseWriters" t="Include">
+              <e p="IntermediateDecompilationCSharpLanguageWriter.cs" t="Include" />
+              <e p="TestCaseCSharpWriter.cs" t="Include" />
+            </e>
+            <e p="VisualBasic" t="Include">
+              <e p="IVisualBasic.cs" t="Include" />
+              <e p="VisualBasic.cs" t="Include" />
+              <e p="VisualBasicAssemblyAttributeWriter.cs" t="Include" />
+              <e p="VisualBasicAttributeWriter.cs" t="Include" />
+              <e p="VisualBasicKeyWordWriter.cs" t="Include" />
+              <e p="VisualBasicV10.cs" t="Include" />
+              <e p="VisualBasicVersion.cs" t="Include" />
+              <e p="VisualBasicWriter.cs" t="Include" />
+            </e>
+            <e p="WriterSettings.cs" t="Include" />
+            <e p="WritingInfo.cs" t="Include" />
+          </e>
+          <e p="Mono.Cecil.Extensions" t="Include">
+            <e p="CustomAttributeExtensions.cs" t="Include" />
+            <e p="DecompilationLocker.cs" t="Include" />
+            <e p="EventDefinitionExtensions.cs" t="Include" />
+            <e p="FieldReferenceExtensions.cs" t="Include" />
+            <e p="GenericHelper.cs" t="Include" />
+            <e p="ICustomAttributeProviderExtensions.cs" t="Include" />
+            <e p="IGenericInstanceExtensions.cs" t="Include" />
+            <e p="IGenericParameterProviderExtensions.cs" t="Include" />
+            <e p="ImplementedMember.cs" t="Include" />
+            <e p="InstructionExtensions.cs" t="Include" />
+            <e p="MemberDefinitionExtensions.cs" t="Include" />
+            <e p="MemberNamingExtensions.cs" t="Include" />
+            <e p="MethodDefinitionExtensions.cs" t="Include" />
+            <e p="MethodReferenceExtentions.cs" t="Include" />
+            <e p="ModuleDefinitionExtensions.cs" t="Include" />
+            <e p="ParameterDefinitionExtensions.cs" t="Include" />
+            <e p="ParameterReferenceExtensions.cs" t="Include" />
+            <e p="PropertyReferenceExtensions.cs" t="Include" />
+            <e p="SecurityAttributeExtensions.cs" t="Include" />
+            <e p="SecurityDeclarationExtensions.cs" t="Include" />
+            <e p="TypeDefinitionExtensions.cs" t="Include" />
+            <e p="TypeReferenceExtensions.cs" t="Include" />
+          </e>
+          <e p="Pattern" t="Include">
+            <e p="PatternMatching.cs" t="Include" />
+          </e>
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="Steps" t="Include">
+            <e p="ArrayVariablesStep.cs" t="Include" />
+            <e p="AssignOutParametersStep.cs" t="Include" />
+            <e p="BaseStateMachineRemoverStep.cs" t="Include" />
+            <e p="CanCastStep.cs" t="Include" />
+            <e p="CaseGotoTransformerStep.cs" t="Include" />
+            <e p="CastEnumsToIntegersStep.cs" t="Include" />
+            <e p="CastIntegersStep.cs" t="Include" />
+            <e p="CodePatterns" t="Include">
+              <e p="ArrayInitialisationPattern.cs" t="Include" />
+              <e p="BaseInitialisationPattern.cs" t="Include" />
+              <e p="CatchClausesFilterPattern.cs" t="Include" />
+              <e p="CodePatternsContext.cs" t="Include" />
+              <e p="CollectionInitializationPattern.cs" t="Include" />
+              <e p="CommonPatterns.cs" t="Include" />
+              <e p="DefineUseCount.cs" t="Include" />
+              <e p="ICodePattern.cs" t="Include" />
+              <e p="InitializationPattern.cs" t="Include" />
+              <e p="MultiAssignPattern.cs" t="Include" />
+              <e p="NullCoalescingPattern.cs" t="Include" />
+              <e p="ObjectInitialisationPattern.cs" t="Include" />
+              <e p="RaiseEventPattern.cs" t="Include" />
+              <e p="TernaryConditionPattern.cs" t="Include" />
+              <e p="TernaryConditionPatternAgressive.cs" t="Include" />
+              <e p="VariableInliningPattern.cs" t="Include" />
+              <e p="VariableInliningPatternAggressive.cs" t="Include" />
+            </e>
+            <e p="CodePatternsStep.cs" t="Include" />
+            <e p="CombinedTransformerStep.cs" t="Include" />
+            <e p="CreateCompilerOptimizedSwitchByStringStatementsStep.cs" t="Include" />
+            <e p="CreateIfElseIfStatementsStep.cs" t="Include" />
+            <e p="DeclareTopLevelVariables.cs" t="Include" />
+            <e p="DeclareVariablesOnFirstAssignment.cs" t="Include" />
+            <e p="DeduceImplicitDelegates.cs" t="Include" />
+            <e p="DependsOnAnalysisStep.cs" t="Include" />
+            <e p="DetermineCtorInvocationStep.cs" t="Include" />
+            <e p="DetermineDestructorStep.cs" t="Include" />
+            <e p="DetermineNotSupportedVBCodeStep.cs" t="Include" />
+            <e p="DynamicVariables" t="Include">
+              <e p="CallSiteBinderType.cs" t="Include" />
+              <e p="CallSiteInfo.cs" t="Include" />
+              <e p="CallSiteInvocationReplacer.cs" t="Include" />
+              <e p="DynamicElementAnalyzer.cs" t="Include" />
+              <e p="ResolveDynamicVariablesStep.cs" t="Include" />
+            </e>
+            <e p="EnumHelper.cs" t="Include" />
+            <e p="FieldAssignmentAnalysisStep.cs" t="Include" />
+            <e p="FindAutoBoxesStep.cs" t="Include" />
+            <e p="FixBinaryExpressionsStep.cs" t="Include" />
+            <e p="FixMethodOverloadsStep.cs" t="Include" />
+            <e p="FixSwitchCasesStep.cs" t="Include" />
+            <e p="FixSwitchConditionStep.cs" t="Include" />
+            <e p="HandleVirtualMethodInvocations.cs" t="Include" />
+            <e p="IDecompilationStep.cs" t="Include" />
+            <e p="Inflector.cs" t="Include" />
+            <e p="InstructionMappingsCheck.cs" t="Include" />
+            <e p="ManagedPointersRemovalStep.cs" t="Include" />
+            <e p="MapUnconditionalBranchesStep.cs" t="Include" />
+            <e p="Matcher.cs" t="Include" />
+            <e p="MergeUnaryAndBinaryExpression.cs" t="Include" />
+            <e p="Negator.cs" t="Include" />
+            <e p="OperatorStep.cs" t="Include" />
+            <e p="OutParameterAssignmentAnalysisStep.cs" t="Include" />
+            <e p="ParenthesizeExpressionsStep.cs" t="Include" />
+            <e p="PropertyRecognizer.cs" t="Include" />
+            <e p="RebuildAnonymousDelegatesStep.cs" t="Include" />
+            <e p="RebuildAnonymousTypesInitializersStep.cs" t="Include" />
+            <e p="RebuildAsyncStatementsStep.cs" t="Include" />
+            <e p="RebuildCatchClausesFilterStep.cs" t="Include" />
+            <e p="RebuildDoWhileStatements.cs" t="Include" />
+            <e p="RebuildEventsStep.cs" t="Include" />
+            <e p="RebuildExpressionTreesStep.cs" t="Include" />
+            <e p="RebuildFixedStatements.cs" t="Include" />
+            <e p="RebuildForStatements.cs" t="Include" />
+            <e p="RebuildForeachArrayStatements.cs" t="Include" />
+            <e p="RebuildForeachStatements.cs" t="Include" />
+            <e p="RebuildLambdaExpressions.cs" t="Include" />
+            <e p="RebuildLinqQueriesStep.cs" t="Include" />
+            <e p="RebuildLockStatements.cs" t="Include" />
+            <e p="RebuildUsingStatements.cs" t="Include" />
+            <e p="RebuildVBForStatements.cs" t="Include" />
+            <e p="RebuildYieldStatementsStep.cs" t="Include" />
+            <e p="RemoveAsyncStateMachineStep.cs" t="Include" />
+            <e p="RemoveCompilerOptimizationsStep.cs" t="Include" />
+            <e p="RemoveConditionOnlyVariables.cs" t="Include" />
+            <e p="RemoveDelegateCachingStep.cs" t="Include" />
+            <e p="RemoveLastReturn.cs" t="Include" />
+            <e p="RemovePrivateImplemetnationDetailsStep.cs" t="Include" />
+            <e p="RemoveUnreachableBlocksStep.cs" t="Include" />
+            <e p="RemoveUnusedVariablesStep.cs" t="Include" />
+            <e p="RemoveYieldStateMachineStep.cs" t="Include" />
+            <e p="RenameEnumValues.cs" t="Include" />
+            <e p="RenameSplitPropertiesMethodsAndBackingFields.cs" t="Include" />
+            <e p="RenameVBVariables.cs" t="Include" />
+            <e p="RenameVariables.cs" t="Include" />
+            <e p="ReplaceDelegateInvokeStep.cs" t="Include" />
+            <e p="SelfAssignment.cs" t="Include" />
+            <e p="SentinelStep.cs" t="Include" />
+            <e p="SimpleDereferencer.cs" t="Include" />
+            <e p="SwitchByString" t="Include">
+              <e p="RebuildSwitchByString.cs" t="Include" />
+              <e p="SwitchByStringFixer.cs" t="Include" />
+              <e p="SwitchByStringMatcher.cs" t="Include" />
+            </e>
+            <e p="TransformCatchClausesFilterExpressionStep.cs" t="Include" />
+            <e p="TransformMemberHandlersStep.cs" t="Include" />
+            <e p="TypeOfStep.cs" t="Include" />
+            <e p="UnsafeMethodBodyStep.cs" t="Include" />
+            <e p="VBCodePatternsStep.cs" t="Include" />
+            <e p="VBSelfAssignment.cs" t="Include" />
+            <e p="VariableAssignmentAnalysisStep.cs" t="Include" />
+            <e p="VisualBasicRemoveDelegateCachingStep.cs" t="Include" />
+            <e p="VisualBasicRemoveUnusedVariablesStep.cs" t="Include" />
+          </e>
+          <e p="ThreadSafeWeakAssemblyResolver.cs" t="Include" />
+          <e p="TwoDimensionalString.cs" t="Include" />
+          <e p="WeakAssemblyResolver.cs" t="Include" />
+          <e p="XmlDocumentationReaders" t="Include">
+            <e p="DocumentationCache.cs" t="Include" />
+            <e p="DocumentationManager.cs" t="Include" />
+            <e p="XmlDocumentationReader.cs" t="Include" />
+            <e p="XmlDocumentationResolver.cs" t="Include" />
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+        <e p="CommonVersionAssemblyInfo.cs" t="Include" />
+        <e p="Decompiler" t="Include" />
+        <e p="EngineInfrastructure" t="IncludeRecursive">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="AssemblyLocators" t="Include">
+            <e p="BaseFrameworkAssemblyLocator.cs" t="Include" />
+            <e p="DotNet2" t="Include">
+              <e p="FrameworkAssemblyLocator2Base.cs" t="Include" />
+              <e p="FrameworkAssemblyLocator2x64.cs" t="Include" />
+              <e p="FrameworkAssemblyLocator2x86.cs" t="Include" />
+            </e>
+            <e p="DotNet3x" t="Include">
+              <e p="FrameworkAssemblyLocator3x64.cs" t="Include" />
+              <e p="FrameworkAssemblyLocator3x86.cs" t="Include" />
+              <e p="FrameworkAssemblyLocator3xBase.cs" t="Include" />
+            </e>
+            <e p="DotNet4x" t="Include">
+              <e p="FrameworkAssembly4xLocatorFactory.cs" t="Include" />
+              <e p="FrameworkAssemblyLocator4x64.cs" t="Include" />
+              <e p="FrameworkAssemblyLocator4x86.cs" t="Include" />
+              <e p="FrameworkAssemblyLocator4xBase.cs" t="Include" />
+            </e>
+            <e p="IFrameworkAssemblyLocator.cs" t="Include" />
+            <e p="NumberedFrameworkAssemblyLocator.cs" t="Include" />
+            <e p="Silverlight" t="Include">
+              <e p="SilverlightAssembliesLocatorBase.cs" t="Include" />
+              <e p="SilverlightX64AssembliesLocator.cs" t="Include" />
+              <e p="SilverlightX86AssembliesLocator.cs" t="Include" />
+            </e>
+            <e p="WinRTMetadataAssembliesLocator.cs" t="Include" />
+          </e>
+          <e p="AssemblyTypes.cs" t="Include" />
+          <e p="CLRHelper.cs" t="Include" />
+          <e p="CodeViewer" t="Include">
+            <e p="CodeClassificationSpan.cs" t="Include" />
+            <e p="CodeFormatterBase.cs" t="Include" />
+            <e p="DecompiledSourceCode.cs" t="Include" />
+            <e p="ICodeFormatter.cs" t="Include" />
+            <e p="JDClassificationTypes.cs" t="Include" />
+          </e>
+          <e p="DangerousResourceIdentifier.cs" t="Include" />
+          <e p="EmptyResolver.cs" t="Include" />
+          <e p="Framework4VersionResolver.cs" t="Include" />
+          <e p="IAssemblyInfoService.cs" t="Include" />
+          <e p="ILanguageSelector.cs" t="Include" />
+          <e p="ILanguageSelectorService.cs" t="Include" />
+          <e p="Infrastructure" t="Include">
+            <e p="AccessTypes.cs" t="Include" />
+            <e p="ICodeClassificationSpan.cs" t="Include" />
+            <e p="ICodeViewerResults.cs" t="Include" />
+            <e p="ITabCodeSettings.cs" t="Include" />
+            <e p="MessageToken.cs" t="Include" />
+            <e p="PositionToken.cs" t="Include" />
+            <e p="Token.cs" t="Include" />
+            <e p="TokenKind.cs" t="Include" />
+          </e>
+          <e p="JustDecompile.EngineInfrastructure.csproj" t="IncludeRecursive" />
+          <e p="LanguageSelectorServiceDefault.cs" t="Include" />
+          <e p="NoCacheAssemblyInfoService.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="ResourceStrings.cs" t="Include" />
+          <e p="Xaml" t="Include">
+            <e p="ITextFormatter.cs" t="Include" />
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+        <e p="JustDecompile.External.JustAssembly" t="IncludeRecursive">
+          <e p="AccessModifier.cs" t="Include" />
+          <e p="AssemblyDecompilationResults.cs" t="Include" />
+          <e p="AvalonEditCodeFormatter.cs" t="Include" />
+          <e p="CodeViewerResults.cs" t="Include" />
+          <e p="DecompilationResults.cs" t="Include" />
+          <e p="Decompiler.cs" t="Include" />
+          <e p="EventMethod.cs" t="Include" />
+          <e p="EventMethodType.cs" t="Include" />
+          <e p="FileGeneratedInfo.cs" t="Include" />
+          <e p="FileGenerationNotifier.cs" t="Include" />
+          <e p="IAssemblyDecompilationResults.cs" t="Include" />
+          <e p="ICodeViewerResults.cs" t="Include" />
+          <e p="IDecompilationResults.cs" t="Include" />
+          <e p="IEventMethod.cs" t="Include" />
+          <e p="IFileGeneratedInfo.cs" t="Include" />
+          <e p="IFileGenerationNotifier.cs" t="Include" />
+          <e p="IMemberTokenProvider.cs" t="Include" />
+          <e p="IModuleDecompilationResults.cs" t="Include" />
+          <e p="IOffsetSpan.cs" t="Include" />
+          <e p="IPropertyMethod.cs" t="Include" />
+          <e p="ISpan.cs" t="Include" />
+          <e p="ITokenProvider.cs" t="Include" />
+          <e p="ITypeTokenProvider.cs" t="Include" />
+          <e p="JustAssemblyFilePathsAnalyzer.cs" t="Include" />
+          <e p="JustAssemblyProjectBuilder.cs" t="Include" />
+          <e p="JustDecompile.External.JustAssembly.csproj" t="IncludeRecursive" />
+          <e p="MemberTokenProvider.cs" t="Include" />
+          <e p="MemberType.cs" t="Include" />
+          <e p="ModuleDecompilationResults.cs" t="Include" />
+          <e p="OffsetSpan.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="PropertyMethod.cs" t="Include" />
+          <e p="PropertyMethodType.cs" t="Include" />
+          <e p="SupportedLanguage.cs" t="Include" />
+          <e p="TokenProviderType.cs" t="Include" />
+          <e p="TypeTokenProvider.cs" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+        <e p="MSBuildProjectCreator" t="IncludeRecursive">
+          <e p="BaseProjectBuilder.cs" t="Include" />
+          <e p="Constants" t="Include">
+            <e p="LanguageConstants.cs" t="Include" />
+            <e p="UAPConstants.cs" t="Include" />
+            <e p="WinRTConstants.cs" t="Include" />
+          </e>
+          <e p="Contracts" t="Include">
+            <e p="FileManagers" t="Include">
+              <e p="IMsBuildProjectManager.cs" t="Include" />
+              <e p="INetCoreProjectManager.cs" t="Include" />
+              <e p="IProjectManager.cs" t="Include" />
+              <e p="IWinRTProjectManager.cs" t="Include" />
+            </e>
+            <e p="IAppDefinitionProjectItemWriter.cs" t="Include" />
+            <e p="IProjectItemWriter.cs" t="Include" />
+            <e p="IRegularProjectItemWriter.cs" t="Include" />
+            <e p="IResXDesignerProjectItemWriter.cs" t="Include" />
+            <e p="IResourceProjectItemWriter.cs" t="Include" />
+            <e p="IWinFormsProjectItemWriter.cs" t="Include" />
+            <e p="IXamlPageProjectItemWriter.cs" t="Include" />
+            <e p="IXamlProjectItemWriter.cs" t="Include" />
+          </e>
+          <e p="Extensions.cs" t="Include" />
+          <e p="FilePathsServices" t="Include">
+            <e p="DefaultFilePathsAnalyzer.cs" t="Include" />
+            <e p="DefaultFilePathsService.cs" t="Include" />
+            <e p="IFilePathsAnalyzer.cs" t="Include" />
+            <e p="IFilePathsService.cs" t="Include" />
+          </e>
+          <e p="IProjectGenerationNotifier.cs" t="Include" />
+          <e p="MSBuildProject.cs" t="Include" />
+          <e p="MSBuildProject.xsd" t="Include" />
+          <e p="MSBuildProjectBuilder.cs" t="Include" />
+          <e p="NetCore" t="Include">
+            <e p="NetCoreProject.cs" t="Include" />
+            <e p="NetCoreProject.xsd" t="Include" />
+            <e p="NetCoreProjectBuilder.cs" t="Include" />
+          </e>
+          <e p="ProjectFileCreated.cs" t="Include" />
+          <e p="ProjectFileManagers" t="Include">
+            <e p="MsBuildProjectFileManager.cs" t="Include" />
+            <e p="NetCoreProjectFileManager.cs" t="Include" />
+            <e p="ProjectFileManager.cs" t="Include" />
+            <e p="TestNetCoreProjectFileManager.cs" t="Include" />
+            <e p="WinRTProjectFileManager.cs" t="Include" />
+          </e>
+          <e p="ProjectGenerationSettings.cs" t="Include" />
+          <e p="ProjectGenerationSettingsProvider.cs" t="Include" />
+          <e p="ProjectItemFileWriters" t="Include">
+            <e p="AppDefinitionItemWriter.cs" t="Include" />
+            <e p="BaseProjectItemFileWriter.cs" t="Include" />
+            <e p="BaseXamlFileWriter.cs" t="Include" />
+            <e p="IProjectItemFileWriter.cs" t="Include" />
+            <e p="ProjectItemWriterFactory.cs" t="Include" />
+            <e p="RegularProjectItemWriter.cs" t="Include" />
+            <e p="ResXDesignerWriter.cs" t="Include" />
+            <e p="WinFormsItemWriter.cs" t="Include" />
+            <e p="XamlPageItemWriter.cs" t="Include" />
+          </e>
+          <e p="ProjectJsonWriter.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="SolutionWriter.cs" t="Include" />
+          <e p="TestMSBuildProjectBuilder.cs" t="Include" />
+          <e p="TestNetCoreProjectBuilder.cs" t="Include" />
+          <e p="TestWinRTProjectBuilder.cs" t="Include" />
+          <e p="Tools.MSBuildProjectBuilder.csproj" t="IncludeRecursive" />
+          <e p="UpdateClassGeenratedFromSchema.bat" t="Include" />
+          <e p="Utilities.cs" t="Include" />
+          <e p="VisualStudioVersion.cs" t="Include" />
+          <e p="WinRTProjectBuilder.cs" t="Include" />
+          <e p="WinRTProjectType.cs" t="Include" />
+          <e p="WinRTProjectTypeDetector.cs" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+        <e p="Mono.Cecil" t="IncludeRecursive">
+          <e p="JustDecompileExtensions" t="Include">
+            <e p="NET4.0Extensions.cs" t="Include" />
+          </e>
+          <e p="Mono" t="Include">
+            <e p="Actions.cs" t="Include" />
+            <e p="Empty.cs" t="Include" />
+            <e p="Funcs.cs" t="Include" />
+          </e>
+          <e p="Mono.Cecil" t="Include">
+            <e p="ArrayType.cs" t="Include" />
+            <e p="AssemblyDefinition.cs" t="Include" />
+            <e p="AssemblyFlags.cs" t="Include" />
+            <e p="AssemblyHashAlgorithm.cs" t="Include" />
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="AssemblyLinkedResource.cs" t="Include" />
+            <e p="AssemblyNameDefinition.cs" t="Include" />
+            <e p="AssemblyNameReference.cs" t="Include" />
+            <e p="AssemblyReader.cs" t="Include" />
+            <e p="AssemblyWriter.cs" t="Include" />
+            <e p="BaseAssemblyResolver.cs" t="Include" />
+            <e p="CallSite.cs" t="Include" />
+            <e p="ConstantValue.cs" t="Include" />
+            <e p="CustomAttribute.cs" t="Include" />
+            <e p="DefaultAssemblyResolver.cs" t="Include" />
+            <e p="EmbeddedResource.cs" t="Include" />
+            <e p="EventAttributes.cs" t="Include" />
+            <e p="EventDefinition.cs" t="Include" />
+            <e p="EventReference.cs" t="Include" />
+            <e p="ExportedType.cs" t="Include" />
+            <e p="FieldAttributes.cs" t="Include" />
+            <e p="FieldDefinition.cs" t="Include" />
+            <e p="FieldReference.cs" t="Include" />
+            <e p="FileAttributes.cs" t="Include" />
+            <e p="FunctionPointerType.cs" t="Include" />
+            <e p="GenericInstanceMethod.cs" t="Include" />
+            <e p="GenericInstanceType.cs" t="Include" />
+            <e p="GenericParameter.cs" t="Include" />
+            <e p="GenericParameterAttributes.cs" t="Include" />
+            <e p="IConstantProvider.cs" t="Include" />
+            <e p="ICustomAttributeProvider.cs" t="Include" />
+            <e p="IGenericDefinition.cs" t="Include" />
+            <e p="IGenericInstance.cs" t="Include" />
+            <e p="IGenericParameterProvider.cs" t="Include" />
+            <e p="IMarshalInfoProvider.cs" t="Include" />
+            <e p="IMemberDefinition.cs" t="Include" />
+            <e p="IMetadataScope.cs" t="Include" />
+            <e p="IMetadataTokenProvider.cs" t="Include" />
+            <e p="IMethodSignature.cs" t="Include" />
+            <e p="ISecurityDeclarationMemberDefinition.cs" t="Include" />
+            <e p="IVisibilityDefinition.cs" t="Include" />
+            <e p="Import.cs" t="Include" />
+            <e p="LinkedResource.cs" t="Include" />
+            <e p="ManifestResourceAttributes.cs" t="Include" />
+            <e p="MarshalInfo.cs" t="Include" />
+            <e p="MemberDefinitionCollection.cs" t="Include" />
+            <e p="MemberReference.cs" t="Include" />
+            <e p="MetadataResolver.cs" t="Include" />
+            <e p="MetadataSystem.cs" t="Include" />
+            <e p="MethodAttributes.cs" t="Include" />
+            <e p="MethodCallingConvention.cs" t="Include" />
+            <e p="MethodDefinition.cs" t="Include" />
+            <e p="MethodImplAttributes.cs" t="Include" />
+            <e p="MethodReference.cs" t="Include" />
+            <e p="MethodReturnType.cs" t="Include" />
+            <e p="MethodSemanticsAttributes.cs" t="Include" />
+            <e p="MethodSpecification.cs" t="Include" />
+            <e p="Modifiers.cs" t="Include" />
+            <e p="ModuleDefinition.cs" t="Include" />
+            <e p="ModuleKind.cs" t="Include" />
+            <e p="ModuleReference.cs" t="Include" />
+            <e p="NativeType.cs" t="Include" />
+            <e p="PInvokeAttributes.cs" t="Include" />
+            <e p="PInvokeInfo.cs" t="Include" />
+            <e p="ParameterAttributes.cs" t="Include" />
+            <e p="ParameterDefinition.cs" t="Include" />
+            <e p="ParameterDefinitionCollection.cs" t="Include" />
+            <e p="ParameterReference.cs" t="Include" />
+            <e p="PinnedType.cs" t="Include" />
+            <e p="PointerType.cs" t="Include" />
+            <e p="PropertyAttributes.cs" t="Include" />
+            <e p="PropertyDefinition.cs" t="Include" />
+            <e p="PropertyReference.cs" t="Include" />
+            <e p="ReferenceType.cs" t="Include" />
+            <e p="Resource.cs" t="Include" />
+            <e p="SecurityDeclaration.cs" t="Include" />
+            <e p="SentinelType.cs" t="Include" />
+            <e p="TargetRuntime.cs" t="Include" />
+            <e p="TypeAttributes.cs" t="Include" />
+            <e p="TypeDefinition.cs" t="Include" />
+            <e p="TypeDefinitionCollection.cs" t="Include" />
+            <e p="TypeParser.cs" t="Include" />
+            <e p="TypeReference.cs" t="Include" />
+            <e p="TypeSpecification.cs" t="Include" />
+            <e p="TypeSystem.cs" t="Include" />
+            <e p="VariantType.cs" t="Include" />
+          </e>
+          <e p="Mono.Cecil.AssemblyResolver" t="Include">
+            <e p="AssemblyFrameworkResolver.cs" t="Include" />
+            <e p="AssemblyFrameworkResolverCache.cs" t="Include" />
+            <e p="AssemblyName.cs" t="Include" />
+            <e p="AssemblyPathResolver.cs" t="Include" />
+            <e p="AssemblyPathResolverCache.cs" t="Include" />
+            <e p="AssemblyStrongNameExtended.cs" t="Include" />
+            <e p="FrameworkVersion.cs" t="Include" />
+            <e p="IAssemblyFrameworkResolver.cs" t="Include" />
+            <e p="ITargetPlatformResolver.cs" t="Include" />
+            <e p="SpecialTypeAssembly.cs" t="Include" />
+            <e p="SystemInformation.cs" t="Include" />
+            <e p="TargetPlatform.cs" t="Include" />
+            <e p="TargetPlatformResolver.cs" t="Include" />
+            <e p="UnresolvedAssembliesSet.cs" t="Include" />
+          </e>
+          <e p="Mono.Cecil.Cil" t="Include">
+            <e p="Code.cs" t="Include" />
+            <e p="CodeReader.cs" t="Include" />
+            <e p="CodeWriter.cs" t="Include" />
+            <e p="Document.cs" t="Include" />
+            <e p="ExceptionHandler.cs" t="Include" />
+            <e p="IDynamicTypeContainer.cs" t="Include" />
+            <e p="ILProcessor.cs" t="Include" />
+            <e p="Instruction.cs" t="Include" />
+            <e p="MethodBody.cs" t="Include" />
+            <e p="OpCode.cs" t="Include" />
+            <e p="OpCodes.cs" t="Include" />
+            <e p="SequencePoint.cs" t="Include" />
+            <e p="Symbols.cs" t="Include" />
+            <e p="VariableDefinition.cs" t="Include" />
+            <e p="VariableReference.cs" t="Include" />
+          </e>
+          <e p="Mono.Cecil.Extensions" t="Include">
+            <e p="AssemblyNameComparer.cs" t="Include" />
+            <e p="AssemblyNameReferenceExtensions.cs" t="Include" />
+            <e p="ModuleArchitectureExtensions.cs" t="Include" />
+            <e p="ModuleDefinitionExtensions.cs" t="Include" />
+          </e>
+          <e p="Mono.Cecil.Metadata" t="Include">
+            <e p="BlobHeap.cs" t="Include" />
+            <e p="Buffers.cs" t="Include" />
+            <e p="CodedIndex.cs" t="Include" />
+            <e p="ElementType.cs" t="Include" />
+            <e p="GuidHeap.cs" t="Include" />
+            <e p="Heap.cs" t="Include" />
+            <e p="MetadataToken.cs" t="Include" />
+            <e p="Row.cs" t="Include" />
+            <e p="StringHeap.cs" t="Include" />
+            <e p="TableHeap.cs" t="Include" />
+            <e p="TokenType.cs" t="Include" />
+            <e p="UserStringHeap.cs" t="Include" />
+            <e p="Utilities.cs" t="Include" />
+          </e>
+          <e p="Mono.Cecil.PE" t="Include">
+            <e p="BinaryStreamReader.cs" t="Include" />
+            <e p="BinaryStreamWriter.cs" t="Include" />
+            <e p="ByteBuffer.cs" t="Include" />
+            <e p="ByteBufferEqualityComparer.cs" t="Include" />
+            <e p="DataDirectory.cs" t="Include" />
+            <e p="Image.cs" t="Include" />
+            <e p="ImageReader.cs" t="Include" />
+            <e p="ImageWriter.cs" t="Include" />
+            <e p="Section.cs" t="Include" />
+            <e p="TextMap.cs" t="Include" />
+          </e>
+          <e p="Mono.Cecil.csproj" t="IncludeRecursive" />
+          <e p="Mono.Collections.Generic" t="Include">
+            <e p="Collection.cs" t="Include" />
+            <e p="ReadOnlyCollection.cs" t="Include" />
+          </e>
+          <e p="Mono.Security.Cryptography" t="Include">
+            <e p="CryptoConvert.cs" t="Include" />
+            <e p="CryptoService.cs" t="Include" />
+          </e>
+          <e p="ProjectInfo.cs" t="Include" />
+          <e p="SmartAssembly.Attributes.cs" t="Include" />
+          <e p="System.Runtime.CompilerServices" t="Include">
+            <e p="ExtensionAttribute.cs" t="Include" />
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive" />
+          <e p="symbols/mdb" t="IncludeRecursive">
+            <e p="Mono.Cecil.Mdb" t="Include">
+              <e p="AssemblyInfo.cs" t="Include" />
+              <e p="MdbReader.cs" t="Include" />
+              <e p="MdbWriter.cs" t="Include" />
+            </e>
+            <e p="Mono.Cecil.Mdb.csproj" t="IncludeRecursive" />
+            <e p="Mono.CompilerServices.SymbolWriter" t="Include">
+              <e p="MonoSymbolFile.cs" t="Include" />
+              <e p="MonoSymbolTable.cs" t="Include" />
+              <e p="MonoSymbolWriter.cs" t="Include" />
+              <e p="SourceMethodBuilder.cs" t="Include" />
+              <e p="SymbolWriterImpl.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive" />
+          </e>
+          <e p="symbols/pdb" t="IncludeRecursive">
+            <e p="Microsoft.Cci.Pdb" t="Include">
+              <e p="BitAccess.cs" t="Include" />
+              <e p="BitSet.cs" t="Include" />
+              <e p="CvInfo.cs" t="Include" />
+              <e p="DataStream.cs" t="Include" />
+              <e p="DbiDbgHdr.cs" t="Include" />
+              <e p="DbiHeader.cs" t="Include" />
+              <e p="DbiModuleInfo.cs" t="Include" />
+              <e p="DbiSecCon.cs" t="Include" />
+              <e p="IntHashTable.cs" t="Include" />
+              <e p="Interfaces.cs" t="Include" />
+              <e p="MsfDirectory.cs" t="Include" />
+              <e p="PdbConstant.cs" t="Include" />
+              <e p="PdbDebugException.cs" t="Include" />
+              <e p="PdbException.cs" t="Include" />
+              <e p="PdbFile.cs" t="Include" />
+              <e p="PdbFileHeader.cs" t="Include" />
+              <e p="PdbFunction.cs" t="Include" />
+              <e p="PdbLine.cs" t="Include" />
+              <e p="PdbLines.cs" t="Include" />
+              <e p="PdbReader.cs" t="Include" />
+              <e p="PdbScope.cs" t="Include" />
+              <e p="PdbSlot.cs" t="Include" />
+              <e p="PdbSource.cs" t="Include" />
+              <e p="PdbTokenLine.cs" t="Include" />
+              <e p="SourceLocationProvider.cs" t="Include" />
+            </e>
+            <e p="Mono.Cecil.Pdb" t="Include">
+              <e p="AssemblyInfo.cs" t="Include" />
+              <e p="ISymUnmanagedDocumentWriter.cs" t="Include" />
+              <e p="ISymUnmanagedWriter2.cs" t="Include" />
+              <e p="ModuleMetadata.cs" t="Include" />
+              <e p="PdbHelper.cs" t="Include" />
+              <e p="PdbReader.cs" t="Include" />
+              <e p="PdbWriter.cs" t="Include" />
+              <e p="SymDocumentWriter.cs" t="Include" />
+              <e p="SymWriter.cs" t="Include" />
+            </e>
+            <e p="Mono.Cecil.Pdb.csproj" t="IncludeRecursive" />
+            <e p="obj" t="ExcludeRecursive" />
+          </e>
+        </e>
+        <e p="SystemInformationHelpers" t="IncludeRecursive">
+          <e p="Framework4VersionResolver.cs" t="Include" />
+          <e p="FrameworkVersion.cs" t="Include" />
+          <e p="MachineInformation.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="SystemInformationHelpers.csproj" t="IncludeRecursive" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+        <e p="Tools" t="Include" />
+      </e>
+      <e p="Tests" t="Include">
+        <e p="JustAssembly.Tests" t="IncludeRecursive">
+          <e p="APIDiff" t="Include">
+            <e p="BaseExistingAPIDiffTestFixture.cs" t="Include" />
+            <e p="ExistingAPIDiffTestFixture.cs" t="Include" />
+          </e>
+          <e p="JustAssembly.Tests.csproj" t="IncludeRecursive" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="SimpleTestClass.cs" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+      </e>
+      <e p="Tools" t="Include">
+        <e p="JustAssembly.API" t="IncludeRecursive">
+          <e p="Analytics" t="Include">
+            <e p="ConnectivityStatus.cs" t="Include" />
+            <e p="IAnalyticsMonitorCapabilities.cs" t="Include" />
+            <e p="IAnalyticsMonitorStatus.cs" t="Include" />
+            <e p="IAnalyticsService.cs" t="Include" />
+            <e p="ITimingScope.cs" t="Include" />
+          </e>
+          <e p="JustAssembly.API.csproj" t="IncludeRecursive" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+        <e p="JustAssembly.WebServiceProxy" t="IncludeRecursive">
+          <e p="JustAssembly.WebServiceProxy.csproj" t="IncludeRecursive" />
+          <e p="Models" t="Include">
+            <e p="BannerConfig.cs" t="Include" />
+          </e>
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="Service References/Service/JustAssembly.WebServiceProxy.Service.BannerConfig.datasource" t="Include" />
+          <e p="Service References/Service/JustAssembly.WebServiceProxy.Service.BannerEntity.datasource" t="Include" />
+          <e p="Service References/Service/JustAssembly.WebServiceProxy.Service.PluginConfig.datasource" t="Include" />
+          <e p="Service References/Service/JustAssembly.WebServiceProxy.Service.ToolVersion.datasource" t="Include" />
+          <e p="Service References/Service/JustAssembly.WebServiceProxy.Service.VersionInfo.datasource" t="Include" />
+          <e p="Service References/Service/Reference.cs" t="Include" />
+          <e p="Service References/Service/Reference.svcmap" t="Include" />
+          <e p="Service References/Service/UpdatesService.disco" t="Include" />
+          <e p="Service References/Service/UpdatesService.wsdl" t="Include" />
+          <e p="Service References/Service/UpdatesService.xsd" t="Include" />
+          <e p="Service References/Service/UpdatesService1.xsd" t="Include" />
+          <e p="Service References/Service/UpdatesService2.xsd" t="Include" />
+          <e p="Service References/Service/UpdatesService3.xsd" t="Include" />
+          <e p="Service References/Service/UpdatesService4.xsd" t="Include" />
+          <e p="Service References/Service/UpdatesService5.xsd" t="Include" />
+          <e p="Service References/Service/UpdatesService6.xsd" t="Include" />
+          <e p="Service References/Service/UpdatesService7.xsd" t="Include" />
+          <e p="Service References/Service/UpdatesService8.xsd" t="Include" />
+          <e p="Service References/Service/configuration.svcinfo" t="Include" />
+          <e p="Service References/Service/configuration91.svcinfo" t="Include" />
+          <e p="UpdatesServiceClientFactory.cs" t="Include" />
+          <e p="app.config" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+      </e>
+      <e p="UI" t="Include">
+        <e p="ICSharpCode.AvalonEdit" t="IncludeRecursive">
+          <e p="ICSharpCode.AvalonEdit.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="JustAssembly" t="IncludeRecursive">
+          <e p="JustAssembly.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="JustAssembly.CommandLineTool" t="IncludeRecursive">
+          <e p="App.config" t="Include" />
+          <e p="FilePathValidater.cs" t="Include" />
+          <e p="JustAssembly.CommandLineTool.csproj" t="IncludeRecursive" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="Startup.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+        <e p="JustAssembly.Infrastructure" t="IncludeRecursive">
+          <e p="Analytics" t="Include">
+            <e p="AnalyticsServiceImporter.cs" t="Include" />
+            <e p="EmptyAnalyticsMonitorCapabilities.cs" t="Include" />
+            <e p="EmptyAnalyticsMonitorStatus.cs" t="Include" />
+            <e p="EmptyAnalyticsService.cs" t="Include" />
+            <e p="EmptyTimingScope.cs" t="Include" />
+          </e>
+          <e p="JustAssembly.Infrastructure.csproj" t="IncludeRecursive" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+        <e p="JustAssembly.SelectorControl" t="IncludeRecursive">
+          <e p="JustAssembly.SelectorControl.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="ReleaseBuild" t="ExcludeRecursive" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

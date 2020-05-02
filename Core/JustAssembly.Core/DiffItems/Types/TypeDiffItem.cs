@@ -6,7 +6,7 @@ using Mono.Cecil;
 
 namespace JustAssembly.Core.DiffItems.Types
 {
-    class TypeDiffItem : BaseDiffItem<TypeDefinition>
+    public class TypeDiffItem : BaseDiffItem<TypeDefinition>
     {
         public TypeDiffItem(TypeDefinition oldType, TypeDefinition newType, IEnumerable<IDiffItem> declarationDiffs, IEnumerable<IMetadataDiffItem> childrenDiffs)
             : base(oldType, newType, declarationDiffs, childrenDiffs)

@@ -4,7 +4,7 @@ using Mono.Cecil;
 
 namespace JustAssembly.Core.DiffItems.Events
 {
-    class AddAccessorDiffItem : BaseMemberDiffItem<MethodDefinition>
+    public class AddAccessorDiffItem : BaseMemberDiffItem<MethodDefinition>
     {
         public AddAccessorDiffItem(EventDefinition oldEvent, EventDefinition newEvent, IEnumerable<IDiffItem> declarationDiffs)
             : base(oldEvent.AddMethod, newEvent.AddMethod, declarationDiffs, null)

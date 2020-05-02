@@ -4,7 +4,7 @@ using Mono.Cecil;
 
 namespace JustAssembly.Core.DiffItems.References
 {
-    class AssemblyReferenceDiffItem : BaseDiffItem<AssemblyNameReference>
+    public class AssemblyReferenceDiffItem : BaseDiffItem<AssemblyNameReference>
     {
         public AssemblyReferenceDiffItem(AssemblyNameReference oldReference, AssemblyNameReference newReference, IEnumerable<IDiffItem> declarationDiffs)
             : base(oldReference, newReference, declarationDiffs, null)
