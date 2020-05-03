@@ -50,8 +50,8 @@ namespace JustAssembly.Core.DiffItems
     {
         private readonly T oldElement;
         private readonly T newElement;
-        private readonly IEnumerable<IDiffItem> declarationDiffs;
-        private readonly IEnumerable<IMetadataDiffItem> childrenDiffs;
+        private readonly IList<IDiffItem> declarationDiffs;
+        private readonly IList<IMetadataDiffItem> childrenDiffs;
 
         public T OldElement => this.oldElement;
 
@@ -63,17 +63,19 @@ namespace JustAssembly.Core.DiffItems
 
         public uint NewTokenID => this.newElement.MetadataToken.ToUInt32();
 
-        public IEnumerable<IDiffItem> DeclarationDiffs => this.declarationDiffs;
+        public ICollection<IDiffItem> DeclarationDiffs => this.declarationDiffs;
 
-        public IEnumerable<IMetadataDiffItem> ChildrenDiffs => this.childrenDiffs;
+        public ICollection<IMetadataDiffItem> ChildrenDiffs => this.childrenDiffs;
+
+        public int Count => DeclarationDiffs.Count + ChildrenDiffs.Count;
 
         public BaseDiffItem(T oldElement, T newElement, IEnumerable<IDiffItem> declarationDiffs, IEnumerable<IMetadataDiffItem> childrenDiffs)
             : base(newElement == null ? DiffType.Deleted : (oldElement == null ? DiffType.New : DiffType.Modified))
         {
             this.oldElement = oldElement;
             this.newElement = newElement;
-            this.declarationDiffs = declarationDiffs != null ? declarationDiffs.ToList() : Enumerable.Empty<IDiffItem>();
-            this.childrenDiffs = childrenDiffs != null ? childrenDiffs.ToList() : Enumerable.Empty<IMetadataDiffItem>();
+            this.declarationDiffs = (declarationDiffs ?? Enumerable.Empty<IDiffItem>()).ToList();
+            this.childrenDiffs = (childrenDiffs ?? Enumerable.Empty<IMetadataDiffItem>()).ToList();
         }
 
         protected T GetElement()
@@ -94,7 +96,7 @@ namespace JustAssembly.Core.DiffItems
                     diffItem.Visit(visit, depth + 1);
             }
 
-            foreach (var item in this.ChildrenDiffs)
+            foreach (var item in this.ChildrenDiffs.OrderBy(c=>c.Count).ThenBy(c=>c.HumanReadable))
                 item.Visit(visit, depth + 1);
         }
 
@@ -140,7 +142,7 @@ namespace JustAssembly.Core.DiffItems
                     }
                     else
                     {
-                        this.isBreakingChange = EnumerableExtensions.ConcatAll<IDiffItem>(this.declarationDiffs, this.childrenDiffs).Any(item => item.IsBreakingChange);
+                        this.isBreakingChange = EnumerableExtensions.ConcatAll(this.declarationDiffs, this.childrenDiffs).Any(item => item.IsBreakingChange);
                     }
                 }
                 return isBreakingChange.Value;

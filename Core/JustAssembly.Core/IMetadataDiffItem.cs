@@ -6,8 +6,9 @@ namespace JustAssembly.Core
 {
     public interface IMetadataDiffItem : IDiffItem
     {
-        IEnumerable<IDiffItem> DeclarationDiffs { get; }
-        IEnumerable<IMetadataDiffItem> ChildrenDiffs { get; }
+        ICollection<IDiffItem> DeclarationDiffs { get; }
+        ICollection<IMetadataDiffItem> ChildrenDiffs { get; }
+        int Count { get; }
 
         MetadataType MetadataType { get; }
 
