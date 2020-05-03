@@ -13,10 +13,7 @@ namespace JustAssembly.Core.DiffItems.Assemblies
         {
         }
 
-        public override MetadataType MetadataType
-        {
-            get { return MetadataType.Assembly; }
-        }
+        public override MetadataType MetadataType => MetadataType.Assembly;
 
         protected override string GetElementShortName(AssemblyDefinition element)
         {

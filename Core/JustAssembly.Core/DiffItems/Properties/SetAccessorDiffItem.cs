@@ -11,10 +11,7 @@ namespace JustAssembly.Core.DiffItems.Properties
         {
         }
 
-        public override MetadataType MetadataType
-        {
-            get { return Core.MetadataType.Method; }
-        }
+        public override MetadataType MetadataType => Core.MetadataType.Method;
 
         protected override string GetElementShortName(MethodDefinition element)
         {

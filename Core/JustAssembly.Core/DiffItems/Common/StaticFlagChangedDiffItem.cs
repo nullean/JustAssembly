@@ -13,14 +13,13 @@ namespace JustAssembly.Core.DiffItems.Common
             this.isNewMemberStatic = isNewMemberStatic;
         }
 
-        protected override string GetXmlInfoString()
-        {
-            return string.Format("Member changed to {0}.", isNewMemberStatic ? "static" : "instance");
-        }
+        public override string GetXmlInfoString() =>
+            $"Member changed to {(isNewMemberStatic ? "static" : "instance")}.";
 
-        public override bool IsBreakingChange
-        {
-            get { return true; }
-        }
+        public override string HumanReadable => GetXmlInfoString();
+
+        public override void Visit(Action<IDiffItem, int> visit, int depth = 0) => visit(this, depth);
+
+        public override bool IsBreakingChange => true;
     }
 }

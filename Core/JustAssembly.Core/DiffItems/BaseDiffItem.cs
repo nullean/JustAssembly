@@ -12,18 +12,9 @@ namespace JustAssembly.Core.DiffItems
     {
         private readonly DiffType diffType;
 
-        public DiffType DiffType
-        {
-            get
-            {
-                return this.diffType;
-            }
-        }
+        public DiffType DiffType => this.diffType;
 
-        public BaseDiffItem(DiffType diffType)
-        {
-            this.diffType = diffType;
-        }
+        public BaseDiffItem(DiffType diffType) => this.diffType = diffType;
 
         public string ToXml()
         {
@@ -38,7 +29,9 @@ namespace JustAssembly.Core.DiffItems
             }
         }
 
-        protected abstract string GetXmlInfoString();
+        public abstract string GetXmlInfoString();
+
+        public abstract string HumanReadable { get; }
 
         internal virtual void ToXml(XmlWriter writer)
         {
@@ -49,6 +42,8 @@ namespace JustAssembly.Core.DiffItems
         }
 
         public abstract bool IsBreakingChange { get; }
+        
+        public abstract void Visit(Action<IDiffItem, int> visit, int depth = 0);
     }
 
     public abstract class BaseDiffItem<T> : BaseDiffItem, IMetadataDiffItem<T> where T : class, IMetadataTokenProvider
@@ -58,49 +53,19 @@ namespace JustAssembly.Core.DiffItems
         private readonly IEnumerable<IDiffItem> declarationDiffs;
         private readonly IEnumerable<IMetadataDiffItem> childrenDiffs;
 
-        public T OldElement
-        {
-            get { return this.oldElement; }
-        }
+        public T OldElement => this.oldElement;
 
-        public T NewElement
-        {
-            get { return this.newElement; }
-        }
+        public T NewElement => this.newElement;
 
         public abstract MetadataType MetadataType { get; }
 
-        public uint OldTokenID
-        {
-            get
-            {
-                return this.oldElement.MetadataToken.ToUInt32();
-            }
-        }
+        public uint OldTokenID => this.oldElement.MetadataToken.ToUInt32();
 
-        public uint NewTokenID
-        {
-            get
-            {
-                return this.newElement.MetadataToken.ToUInt32();
-            }
-        }
+        public uint NewTokenID => this.newElement.MetadataToken.ToUInt32();
 
-        public IEnumerable<IDiffItem> DeclarationDiffs
-        {
-            get
-            {
-                return this.declarationDiffs;
-            }
-        }
+        public IEnumerable<IDiffItem> DeclarationDiffs => this.declarationDiffs;
 
-        public IEnumerable<IMetadataDiffItem> ChildrenDiffs
-        {
-            get
-            {
-                return this.childrenDiffs;
-            }
-        }
+        public IEnumerable<IMetadataDiffItem> ChildrenDiffs => this.childrenDiffs;
 
         public BaseDiffItem(T oldElement, T newElement, IEnumerable<IDiffItem> declarationDiffs, IEnumerable<IMetadataDiffItem> childrenDiffs)
             : base(newElement == null ? DiffType.Deleted : (oldElement == null ? DiffType.New : DiffType.Modified))
@@ -117,6 +82,21 @@ namespace JustAssembly.Core.DiffItems
         }
 
         protected abstract string GetElementShortName(T element);
+
+        public override string HumanReadable => GetElementShortName(GetElement());
+
+        public override void Visit(Action<IDiffItem, int> visit, int depth = 0)
+        {
+            visit(this, depth);
+            if (!this.DeclarationDiffs.IsEmpty())
+            {
+                foreach (var diffItem in this.DeclarationDiffs)
+                    visit(diffItem, ++depth);
+            }
+
+            foreach (var item in this.ChildrenDiffs)
+                visit(item, ++depth);
+        }
 
         internal override void ToXml(XmlWriter writer)
         {
@@ -142,7 +122,7 @@ namespace JustAssembly.Core.DiffItems
             writer.WriteEndElement();
         }
 
-        protected override string GetXmlInfoString()
+        public override string GetXmlInfoString()
         {
             throw new NotSupportedException();
         }

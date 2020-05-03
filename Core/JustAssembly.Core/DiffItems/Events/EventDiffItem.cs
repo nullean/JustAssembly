@@ -11,9 +11,6 @@ namespace JustAssembly.Core.DiffItems.Events
         {
         }
 
-        public override MetadataType MetadataType
-        {
-            get { return Core.MetadataType.Event; }
-        }
+        public override MetadataType MetadataType => Core.MetadataType.Event;
     }
 }

@@ -12,9 +12,6 @@ namespace JustAssembly.Core.DiffItems.Fields
         {
         }
 
-        public override MetadataType MetadataType
-        {
-            get { return Core.MetadataType.Field; }
-        }
+        public override MetadataType MetadataType => Core.MetadataType.Field;
     }
 }

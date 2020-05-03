@@ -14,14 +14,12 @@ namespace JustAssembly.Core.DiffItems.Common
             this.reduced = reduced;
         }
 
-        protected override string GetXmlInfoString()
-        {
-            return string.Format("Member is {0} visible.", this.reduced ? "less" : "more");
-        }
+        public override string GetXmlInfoString() => $"Member is {(this.reduced ? "less" : "more")} visible.";
 
-        public override bool IsBreakingChange
-        {
-            get { return this.reduced; }
-        }
+        public override string HumanReadable => GetXmlInfoString();
+
+        public override void Visit(Action<IDiffItem, int> visit, int depth = 0) => visit(this, depth);
+
+        public override bool IsBreakingChange => this.reduced;
     }
 }

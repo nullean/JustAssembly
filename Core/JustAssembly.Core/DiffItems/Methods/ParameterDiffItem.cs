@@ -19,14 +19,13 @@ namespace JustAssembly.Core.DiffItems.Methods
             this.newParameter = newParameter;
         }
 
-        protected override string GetXmlInfoString()
-        {
-            return string.Format("Parameter name changed from {0} to {1}.", this.oldParameter.Name, this.newParameter.Name);
-        }
+        public override string GetXmlInfoString() =>
+            $"Parameter name changed from {this.oldParameter.Name} to {this.newParameter.Name}.";
 
-        public override bool IsBreakingChange
-        {
-            get { return true; }
-        }
+        public override string HumanReadable => GetXmlInfoString();
+
+        public override void Visit(Action<IDiffItem, int> visit, int depth = 0) => visit(this, depth);
+
+        public override bool IsBreakingChange => true;
     }
 }

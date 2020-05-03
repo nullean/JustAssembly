@@ -19,10 +19,14 @@ namespace JustAssembly.Core.DiffItems.Attributes
             this.attribute = oldAttribute ?? newAttribute;
         }
 
-        protected override string GetXmlInfoString()
+        public override string GetXmlInfoString()
         {
             throw new NotSupportedException();
         }
+
+        public override string HumanReadable => attribute.Constructor.GetSignature();
+
+        public override void Visit(Action<IDiffItem, int> visit, int depth = 0) => visit(this, depth);
 
         internal override void ToXml(System.Xml.XmlWriter writer)
         {
@@ -32,9 +36,6 @@ namespace JustAssembly.Core.DiffItems.Attributes
             writer.WriteEndElement();
         }
 
-        public override bool IsBreakingChange
-        {
-            get { return this.DiffType == Core.DiffType.Deleted; }
-        }
+        public override bool IsBreakingChange => this.DiffType == Core.DiffType.Deleted;
     }
 }

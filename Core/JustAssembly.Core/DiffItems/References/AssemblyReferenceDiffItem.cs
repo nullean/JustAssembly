@@ -11,10 +11,7 @@ namespace JustAssembly.Core.DiffItems.References
         {
         }
 
-        public override MetadataType MetadataType
-        {
-            get { return Core.MetadataType.AssemblyReference; }
-        }
+        public override MetadataType MetadataType => Core.MetadataType.AssemblyReference;
 
         protected override string GetElementShortName(AssemblyNameReference element)
         {

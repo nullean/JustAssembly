@@ -16,7 +16,7 @@ namespace JustAssembly.Core.DiffItems.Common
             this.newMember = newMember;
         }
 
-        protected override string GetXmlInfoString()
+        public override string GetXmlInfoString()
         {
             string name;
 
@@ -28,10 +28,11 @@ namespace JustAssembly.Core.DiffItems.Common
 
             return string.Format("Member type changed from {0} to {1}.", oldType, newType);
         }
+        
+        public override string HumanReadable => GetXmlInfoString();
 
-        public override bool IsBreakingChange
-        {
-            get { return true; }
-        }
+        public override void Visit(Action<IDiffItem, int> visit, int depth = 0) => visit(this, depth);
+
+        public override bool IsBreakingChange => true;
     }
 }

@@ -11,9 +11,6 @@ namespace JustAssembly.Core.DiffItems.Properties
         {
         }
 
-        public override MetadataType MetadataType
-        {
-            get { return Core.MetadataType.Property; }
-        }
+        public override MetadataType MetadataType => Core.MetadataType.Property;
     }
 }

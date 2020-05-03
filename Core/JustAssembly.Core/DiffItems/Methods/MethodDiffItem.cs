@@ -11,9 +11,6 @@ namespace JustAssembly.Core.DiffItems.Methods
         {
         }
 
-        public override MetadataType MetadataType
-        {
-            get { return Core.MetadataType.Method; }
-        }
+        public override MetadataType MetadataType => Core.MetadataType.Method;
     }
 }
