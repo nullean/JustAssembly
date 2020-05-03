@@ -91,11 +91,11 @@ namespace JustAssembly.Core.DiffItems
             if (!this.DeclarationDiffs.IsEmpty())
             {
                 foreach (var diffItem in this.DeclarationDiffs)
-                    visit(diffItem, ++depth);
+                    diffItem.Visit(visit, depth + 1);
             }
 
             foreach (var item in this.ChildrenDiffs)
-                visit(item, ++depth);
+                item.Visit(visit, depth + 1);
         }
 
         internal override void ToXml(XmlWriter writer)
