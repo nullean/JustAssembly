@@ -236,3 +236,5 @@ _Pvt_Extensions
 
 DebugBuild/
 ReleaseBuild/
+# Claude Code personal settings
+.claude/settings.local.json
